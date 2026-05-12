@@ -1,0 +1,2 @@
+# Chipá Recipe
+I love chipá so I made a little static page to display the recipe I usually use to make them. This is just simple HTML/CSS with a couple images and lists, not much to comment. I also added a link to a youtube video that explains the procedure further.
