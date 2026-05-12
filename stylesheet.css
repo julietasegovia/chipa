@@ -18,19 +18,19 @@ body{
     display: flex;
 }
 
-.title-text, .subtitle-text{
+.title-text, .subtitle-text, .video, .content-text{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 90px;
+    font-size: 10vh;
     width: 700px;
     margin-left: -70px;
     color: brown;
 }
 
 .subtitle-text{
-    font-size: 20px;
+    font-size: 2.5vh;
     color: rgb(186, 97, 97);
     margin-left: -60px;
-    margin-top: -50px;
+    margin-top: -35px;
 }
 
 .napkin{
@@ -56,4 +56,52 @@ body{
 .cool-text{
     display: flex;
     flex-direction: column;
+}
+
+.video{
+    display: flex;
+    gap: 4px;
+    margin-left: -60px;
+    font-size: 2vh;
+    margin-top: -25px;
+    
+}
+
+.to-tutorial{
+    color: rgb(186, 97, 97);
+    text-decoration: underline;
+}
+
+.to-tutorial:hover{
+    color: rgb(187, 71, 71);
+}
+
+.content-text{
+    font-size: 6vh;
+    margin-left: 110px;
+    margin-top: -70px;
+}
+
+.intro{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    margin-left: 120px;
+    margin-top: -20px;
+    color: rgb(187, 71, 71);
+    line-height: 1.7;
+    font-size: 2.5vh;
+}
+
+.u-ingridients{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(187, 71, 71);
+    margin-top: -20px;
+    font-size: 2.4vh;
+    margin-bottom: 30px;
+    padding: 4px 0;
+}
+
+.lil-ingridients{
+    margin-left: 110px;
+    color: rgb(187, 71, 71);
 }
